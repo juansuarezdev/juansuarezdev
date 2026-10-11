@@ -35,8 +35,8 @@ It brings the daily operation of a dealership and workshop into a single system:
 
 ## 🌐 Portfolio
 
-### [Personal Portfolio](https://github.com/juansuarezdev/personal-portfolio)
-Bilingual (EN/ES) portfolio with an interactive CV that exports to PDF, interactive demos of selected projects, and light and dark themes.
+### [Personal Portfolio](https://juansuarezdev.github.io/personal-portfolio/)
+Bilingual (EN/ES) portfolio with an interactive CV that exports to PDF, interactive demos of selected projects, and light and dark themes. [Source code](https://github.com/juansuarezdev/personal-portfolio).
 
 `Astro` `TypeScript` `CSS`
 
