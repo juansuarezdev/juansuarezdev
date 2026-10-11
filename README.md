@@ -2,7 +2,7 @@
 
 # Juan Jesús Suárez Sánchez
 
-**Full-stack developer · enterprise ERP by day, native Apple apps by night**
+**Full-stack developer · enterprise ERP by day, tailor-made software for my own needs and small businesses on the side**
 
 <sub>PHP · Laravel · Swift · React · Docker</sub>
 
