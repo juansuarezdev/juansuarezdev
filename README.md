@@ -6,6 +6,8 @@
 
 <sub>PHP · Laravel · Swift · React · Docker</sub>
 
+<a href="https://www.linkedin.com/in/juansuarez-sanchez/"><img src="https://img.shields.io/badge/LinkedIn-Juan%20Su%C3%A1rez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+
 </div>
 
 ---
