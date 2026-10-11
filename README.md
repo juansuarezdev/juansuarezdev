@@ -81,4 +81,4 @@ Script that pushes training routines to the **Hevy** app through its API, so a p
 
 - **Software that survives daily use.** Queues, retries, observability and boring reliability over clever code.
 - **Owning my own data.** I self-host what I can and build tools that keep working offline.
-- **Native details.** Live Activities, Health integration, menu bar apps: the small touches that make an app feel right.
+- **Solving the real problem.** Software built around how a person or a small business actually works, not the other way round.
