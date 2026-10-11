@@ -1,26 +1,86 @@
-# Hi, I'm Juan 👋
+<div align="center">
 
-Full-stack developer. I build tools I actually use: a macOS menu bar utility, a self-hosted
-gym tracker, and the small automations that keep my own life in order.
+# Juan Jesús Suárez Sánchez
 
-## Things I've built
+**Full-stack developer · enterprise ERP by day, native Apple apps by night**
 
-| Project | What it is | Stack |
-|---|---|---|
-| [**Non-Sleep**](https://github.com/juansuarezdev/non-sleep) | macOS menu bar app that keeps your Mac awake for a timed session. Stops on its own when time is up, the battery is low or the Mac runs hot. | Swift 6, SwiftUI, IOKit |
-| [**Beast**](https://github.com/juansuarezdev/beast) | Self-hosted gym and body-weight tracker with iOS Live Activities, Apple Health sync and strength progression. Built on top of openGym. | React, Node, Capacitor, Swift |
-| [**hevy.routines**](https://github.com/juansuarezdev/hevy.routines) | Script that updates training routines in the Hevy app through its API. | Python |
+<sub>PHP · Laravel · Swift · React · Docker</sub>
 
-## Tech I work with
+</div>
 
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+---
 
-## Currently
+## 🏭 Day job: automotive ERP
 
-Shipping native iOS and macOS features, and self-hosting my own infrastructure.
+> A large-scale **ERP for the automotive sector**, used by roughly **600 people every day**.
+
+It runs the daily operation of automotive businesses end to end, in four verticals:
+
+| Vertical | Covers |
+|---|---|
+| 🔧 **Workshop** | Repair orders, scheduling, labour and parts consumption |
+| 🤝 **Sales** | Quotes, orders and the commercial pipeline |
+| 📦 **Parts** | Stock, purchasing and parts distribution |
+| 📊 **Management** | Invoicing, reporting and back-office control |
+
+**Under the hood**
+
+- **Modular monolith on Laravel 11 / PHP 8.2**, layered as Controller → FormRequest → Service → Repository, with DTOs and an event/listener model to decouple functional areas.
+- **MySQL / PostgreSQL**, **Redis** for cache and queues, **Laravel Horizon** to supervise background workers.
+- **OAuth2 (Passport)** for API access, plus a gateway for external consumers.
+- **Integrations** with manufacturer dealer-management systems and accounting software over **SOAP and REST**, run as asynchronous jobs.
+- Heavy on server-rendered **Blade + AJAX** UI, with PDF and Excel generation for business documents.
+
+<sub>Proprietary company software, so there is no public repository.</sub>
+
+---
+
+## 🚀 Open source and side projects
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🌙 [Non-Sleep](https://github.com/juansuarezdev/non-sleep)
+Keep your Mac awake **with an end time**. A menu bar app that stops by itself when time is up, the battery is low or the Mac runs hot.
+
+`Swift 6` `SwiftUI` `IOKit` · MIT
+
+</td>
+<td width="33%" valign="top">
+
+### 🦷 [Beast](https://github.com/juansuarezdev/beast)
+Self-hosted gym and body-weight tracker. Adds **Apple Health sync**, **Live Activities** and **strength progression** on top of openGym.
+
+`React` `Node` `Capacitor` `Swift` · AGPL-3.0
+
+</td>
+<td width="33%" valign="top">
+
+### 🏋️ [hevy.routines](https://github.com/juansuarezdev/hevy.routines)
+Script that pushes training routines to the **Hevy** app through its API, so a plan lives in a file instead of a phone.
+
+`Python` `REST API`
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧰 Toolbox
+
+| | |
+|---|---|
+| **Backend** | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) |
+| **Frontend** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| **Apple platforms** | ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) ![SwiftUI](https://img.shields.io/badge/SwiftUI-0A84FF?style=flat-square&logo=swift&logoColor=white) ![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white) |
+| **Data & infra** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
+
+---
+
+## 🎯 What I care about
+
+- **Software that survives daily use.** Queues, retries, observability and boring reliability over clever code.
+- **Owning my own data.** I self-host what I can and build tools that keep working offline.
+- **Native details.** Live Activities, Health integration, menu bar apps: the small touches that make an app feel right.
