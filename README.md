@@ -14,22 +14,18 @@
 
 > A large-scale **ERP for the automotive sector**, used by roughly **600 people every day**.
 
-It runs the daily operation of automotive businesses end to end, in four verticals:
+It brings the daily operation of a dealership and workshop into a single system:
 
-| Vertical | Covers |
+| | |
 |---|---|
-| 🔧 **Workshop** | Repair orders, scheduling, labour and parts consumption |
-| 🤝 **Sales** | Quotes, orders and the commercial pipeline |
-| 📦 **Parts** | Stock, purchasing and parts distribution |
-| 📊 **Management** | Invoicing, reporting and back-office control |
-
-**Under the hood**
-
-- **Modular monolith on Laravel 11 / PHP 8.2**, layered as Controller → FormRequest → Service → Repository, with DTOs and an event/listener model to decouple functional areas.
-- **MySQL / PostgreSQL**, **Redis** for cache and queues, **Laravel Horizon** to supervise background workers.
-- **OAuth2 (Passport)** for API access, plus a gateway for external consumers.
-- **Integrations** with manufacturer dealer-management systems and accounting software over **SOAP and REST**, run as asynchronous jobs.
-- Heavy on server-rendered **Blade + AJAX** UI, with PDF and Excel generation for business documents.
+| 📅 **Planner & agenda** | Calendar-based scheduling of jobs and technicians, appointment booking and alerts for visits that did not happen |
+| 🔧 **Repair orders** | Open, track and close jobs, with labour lines, parts and warranty handling |
+| 🧾 **Quotes & invoicing** | Quotes with line items, invoices, invoice history, cash and settled-payment flows |
+| 📦 **Parts & stock** | Stock control, goods reception, purchasing and price-list imports |
+| 👥 **Customers & vehicles** | Customer and vehicle records shared across every area |
+| 📁 **Document management** | Attach, store and retrieve the documents tied to each job |
+| 📊 **Reporting** | Lists, exports and generated PDF and Excel documents |
+| 🔌 **Integrations** | Connected to manufacturer and accounting systems |
 
 <sub>Proprietary company software, so there is no public repository.</sub>
 
