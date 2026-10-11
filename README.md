@@ -1,6 +1,6 @@
 <div align="center">
 
-# Juan Jesús Suárez Sánchez
+<img src="assets/header.svg" alt="Juan Suárez" width="100%">
 
 **Full-stack developer · enterprise ERP by day, tailor-made software for my own needs and small businesses on the side**
 
