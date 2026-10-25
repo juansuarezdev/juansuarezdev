@@ -71,6 +71,16 @@ Script that pushes training routines to the **Hevy** app through its API, so a p
 
 </td>
 </tr>
+<tr>
+<td width="33%" valign="top">
+
+### 🪟 [Ultrawrail](https://github.com/juansuarezdev/ultrawrail)
+Scrolling window manager for macOS, built for **ultrawide monitors**. Windows sit in columns on a horizontal strip, with pages, zones and layout templates.
+
+`Swift 6` `AppKit` `Accessibility API` · MIT
+
+</td>
+</tr>
 </table>
 
 ---
