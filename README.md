@@ -27,25 +27,6 @@ Turns a self-hosted kanban board into a work queue for AI coding agents. Assign 
 
 `Python (stdlib only)` `launchd` `Claude Code` `OpenCode` `git worktrees` · MIT
 
-<table>
-<tr>
-<td width="96" valign="top"><img src="assets/nova-icon.png" alt="NOVA icon" width="84"></td>
-<td valign="top">
-
-### NOVA <sub>· private</sub>
-
-Native, local-first replacement for Apple Reminders on macOS and iPhone, built from a written PRD, a competitive research report and 14 architecture decision records.
-
-- Offline bilingual (EN/ES) natural-language capture: `Pay electricity Friday at 9 #home !!`
-- Shared Swift package (`NovaCore`): data model on GRDB/SQLite, NL parser, recurrence engine, notification planner that respects iOS limits, hybrid-logical-clock sync over your own network
-- Widgets, location triggers, Reminders import, undo, backups and a recovery bin; ~14k lines of Swift with 260+ tests
-
-`Swift 6` `SwiftUI` `GRDB` `SQLite` `WidgetKit` `XcodeGen`
-
-</td>
-</tr>
-</table>
-
 ### [Beast](https://github.com/juansuarezdev/beast)
 
 Self-hosted gym and body-weight tracker for iPhone, built on top of openGym. I added the native iOS layer and the training logic:
@@ -66,10 +47,6 @@ Self-hosted gym and body-weight tracker for iPhone, built on top of openGym. I a
 | [Non-Sleep](https://github.com/juansuarezdev/non-sleep) | Menu bar app that keeps the Mac awake until a set time, low battery or high temperature | Swift 6 · SwiftUI · IOKit |
 | [Personal Portfolio](https://github.com/juansuarezdev/personal-portfolio) | Bilingual portfolio with an interactive CV that exports to PDF | Astro · TypeScript |
 | [hevy.routines](https://github.com/juansuarezdev/hevy.routines) | Pushes training routines to the Hevy app through its API | Python |
-| local-delegate <sub>private</sub> | MCP server that hands short, verifiable tasks to a local LLM so file contents never enter the main agent's context | Python · MCP · Ollama |
-| gitpilot <sub>private</sub> | CLI where an LLM proposes a diff that git and the test suite validate before it is applied, with every change recorded | Python · Typer · SQLite |
-| Brain Monitor <sub>private</sub> | Real-time dashboard of which AI agent reads or writes each note of a knowledge base, with SSE streams, alerts and a 3D graph | TypeScript · Fastify · Vue 3 |
-| Vida OS <sub>private</sub> | Local personal dashboard: calendar, tasks, document search with cited answers and a nightly review agent | TypeScript |
 
 ## Day job: automotive ERP
 
